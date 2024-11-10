@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Заголовок страницы</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение CSS -->
+</head>
+<body>
+    <header>
+        <h1>Заголовок страницы</h1>
+    </header>
+    
+    <nav>
+        <div id="slider">
+            <div class="slides">
+              <div class="slide" style="background-color: #ffdd57;">Слайд 1</div>
+              <div class="slide" style="background-color: #57a6ff;">Слайд 2</div>
+              <div class="slide" style="background-color: #ff5757;">Слайд 3</div>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Главный раздел</h2>
+            <p>Основной контент страницы находится здесь.</p>
+        </section>
+        <section id="about">
+            <h2>О нас</h2>
+            <p>Информация о компании или проекте.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ваша компания</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Подключение JavaScript -->
+</body>
+</html>
